@@ -548,6 +548,14 @@ F 3 "" H 9600 3100 60  0000 C CNN
 	1    9600 3100
 	1    0    0    -1  
 $EndComp
+Text HLabel 4100 1000 0    60   BiDi ~ 0
+CAN1H
+Text HLabel 4100 1100 0    60   BiDi ~ 0
+CAN1L
+Text HLabel 9300 1000 0    60   BiDi ~ 0
+CAN2H
+Text HLabel 9300 1100 0    60   BiDi ~ 0
+CAN2L
 Wire Wire Line
 	2250 2100 2250 2150
 Wire Wire Line
@@ -587,12 +595,12 @@ Wire Wire Line
 Wire Wire Line
 	4300 6500 4400 6500
 Wire Wire Line
-	4300 1700 4300 6500
+	4300 1000 4300 6500
 Connection ~ 4300 1700
 Wire Wire Line
 	4200 6600 4400 6600
 Wire Wire Line
-	4200 1800 4200 6600
+	4200 1100 4200 6600
 Connection ~ 4200 1800
 Wire Wire Line
 	4400 5800 4200 5800
@@ -625,9 +633,9 @@ Wire Wire Line
 	4400 5700 4300 5700
 Connection ~ 4300 5700
 Wire Wire Line
-	9600 3300 9500 3300
+	9500 3300 9600 3300
 Wire Wire Line
-	9600 3400 9400 3400
+	9400 3400 9600 3400
 Wire Wire Line
 	9600 2600 9400 2600
 Connection ~ 9400 2600
@@ -635,13 +643,21 @@ Wire Wire Line
 	9600 2500 9500 2500
 Connection ~ 9500 2500
 Wire Wire Line
-	9600 1700 8900 1700
+	8900 1700 9600 1700
 Wire Wire Line
 	8900 1800 9600 1800
 Wire Wire Line
-	9400 3400 9400 1800
+	9400 1100 9400 3400
 Connection ~ 9400 1800
 Wire Wire Line
-	9500 3300 9500 1700
+	9500 1000 9500 3300
 Connection ~ 9500 1700
+Wire Wire Line
+	4100 1100 4200 1100
+Wire Wire Line
+	4300 1000 4100 1000
+Wire Wire Line
+	9300 1100 9400 1100
+Wire Wire Line
+	9300 1000 9500 1000
 $EndSCHEMATC
