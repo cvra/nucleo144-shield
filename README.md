@@ -1,5 +1,8 @@
-# Nucleo144 shield
+# CVRA Nucleo144 shield
 
+![assembled PCB](/shield.jpg)
+
+## Requirements list
 * Alim en entrée
  - 5V, bus + nucleo + shield (borne à visser)
  - 6V, servo (borne à visser)
@@ -25,3 +28,4 @@
 * Mechanical dimension
   - Width and length, max same as Nucleo-144 board (70mmx108mm)
   - Maximum mechanical available space including output cable for Nucleo board and shield ( height = 36mm, lenght = 136.5mm)
+
