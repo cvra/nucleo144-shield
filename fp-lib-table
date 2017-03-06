@@ -5,4 +5,5 @@
   (lib (name _mech)(type KiCad)(uri "$(KIPRJMOD)/kicad-lib/footprints/_mech.pretty")(options "")(descr ""))
   (lib (name _sensors)(type KiCad)(uri "$(KIPRJMOD)/kicad-lib/footprints/_sensors.pretty")(options "")(descr ""))
   (lib (name _std)(type KiCad)(uri "$(KIPRJMOD)/kicad-lib/footprints/_std.pretty")(options "")(descr ""))
+  (lib (name _logo)(type KiCad)(uri "$(KIPRJMOD)/kicad-lib/footprints/_logo.pretty")(options "")(descr ""))
 )
