@@ -305,7 +305,7 @@ U 1 1 58337DBC
 P 9500 4850
 F 0 "P7" H 9500 5150 50  0000 C CNN
 F 1 "GPIO" H 9500 4550 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_10pins" H 9500 3650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 9500 3650 50  0001 C CNN
 F 3 "" H 9500 3650 50  0000 C CNN
 	1    9500 4850
 	1    0    0    -1  
@@ -501,7 +501,7 @@ U 1 1 585B6C63
 P 5550 6900
 F 0 "CONN2" H 5550 7350 50  0000 C CNN
 F 1 "SWD/DEBUG" H 5550 6450 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0710_07x1.25mm_Straight" H 5550 6850 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0771_07x1.25mm_Angled" H 5550 6850 50  0001 C CNN
 F 3 "DOCUMENTATION" H 5550 6850 50  0001 C CNN
 	1    5550 6900
 	1    0    0    -1  
@@ -551,13 +551,13 @@ Text Label 5200 7100 2    50   ~ 0
 DEBUG_UART_TX
 Text Label 5200 7200 2    50   ~ 0
 DEBUG_UART_RX
-Text Label 1400 4550 2    50   ~ 0
+Text Label 1400 1550 2    50   ~ 0
 DEBUG_UART_RX
-Text Label 6000 1550 0    50   ~ 0
+Text Label 1400 1650 2    50   ~ 0
 DEBUG_UART_TX
 Text Label 5200 7000 2    50   ~ 0
 SWCLK
-Text Label 5200 6900 2    50   ~ 0
+Text Label 4550 6900 2    50   ~ 0
 SWDIO
 Text Label 5200 6800 2    50   ~ 0
 NRST
@@ -682,29 +682,29 @@ Text Label 7950 3700 0    50   ~ 0
 LED_RGB_B
 Text Label 7450 3700 2    50   ~ 0
 LED_RGB_G
-Text Label 1400 3750 2    50   ~ 0
+Text Label 1400 4150 2    50   ~ 0
 EXT_IO_0
-Text Label 1400 3650 2    50   ~ 0
+Text Label 1400 4050 2    50   ~ 0
 EXT_IO_1
-Text Label 2700 3650 0    50   ~ 0
+Text Label 1400 4550 2    50   ~ 0
 EXT_IO_2
-Text Label 6000 2950 0    50   ~ 0
+Text Label 2700 3950 0    50   ~ 0
 EXT_IO_4
-Text Label 1400 1550 2    50   ~ 0
+Text Label 4700 4550 2    50   ~ 0
 EXT_IO_6
-Text Label 2700 3750 0    50   ~ 0
+Text Label 6000 4450 0    50   ~ 0
 EXT_IO_8
-Text Label 6000 3150 0    50   ~ 0
+Text Label 6000 4350 0    50   ~ 0
 EXT_IO_10
 Text Label 4700 4050 2    50   ~ 0
 LED_RGB_G
-Text Label 6000 3950 0    50   ~ 0
+Text Label 2700 4350 0    50   ~ 0
 EXT_IO_3
-Text Label 6000 2850 0    50   ~ 0
-EXT_IO_5
-Text Label 1400 1650 2    50   ~ 0
-EXT_IO_7
 Text Label 2700 3850 0    50   ~ 0
+EXT_IO_5
+Text Label 4700 4350 2    50   ~ 0
+EXT_IO_7
+Text Label 6000 4250 0    50   ~ 0
 EXT_IO_9
 Text Label 6000 4150 0    50   ~ 0
 LED_RGB_R
@@ -791,17 +791,17 @@ F 3 "" H 8900 1450 50  0000 C CNN
 $EndComp
 Text Label 2700 1350 0    50   ~ 0
 E5V
-Text Label 8250 1950 0    50   ~ 0
+Text Label 8250 2150 0    50   ~ 0
 E5V
 $Comp
 L GND #PWR019
 U 1 1 58BB229F
-P 8700 2150
-F 0 "#PWR019" H 8700 2150 30  0001 C CNN
-F 1 "GND" H 8700 2080 30  0001 C CNN
-F 2 "" H 8700 2150 60  0001 C CNN
-F 3 "" H 8700 2150 60  0001 C CNN
-	1    8700 2150
+P 8700 1950
+F 0 "#PWR019" H 8700 1950 30  0001 C CNN
+F 1 "GND" H 8700 1880 30  0001 C CNN
+F 2 "" H 8700 1950 60  0001 C CNN
+F 3 "" H 8700 1950 60  0001 C CNN
+	1    8700 1950
 	1    0    0    -1  
 $EndComp
 Text Notes 7750 1750 0    60   ~ 0
@@ -1041,12 +1041,12 @@ Wire Wire Line
 Wire Wire Line
 	9600 2700 9150 2700
 Wire Wire Line
-	8250 1950 8700 1950
+	8250 2150 8700 2150
 Wire Wire Line
-	8500 1950 8500 2600
+	8500 2150 8500 2600
 Wire Wire Line
 	8500 2600 8650 2600
-Connection ~ 8500 1950
+Connection ~ 8500 2150
 Wire Wire Line
 	8650 2600 8650 2700
 Connection ~ 8650 2600
@@ -1210,4 +1210,27 @@ F 3 "" H 2000 7200 50  0000 C CNN
 	1    2000 7200
 	0    -1   -1   0   
 $EndComp
+$Comp
+L R R8
+U 1 1 58BC787B
+P 4800 6900
+F 0 "R8" V 4880 6900 50  0000 C CNN
+F 1 "100" V 4800 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4730 6900 50  0001 C CNN
+F 3 "" H 4800 6900 50  0000 C CNN
+	1    4800 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 6900 4550 6900
+Wire Wire Line
+	4950 6900 5200 6900
+Text Label 6000 1850 0    50   ~ 0
+LED_SD
+NoConn ~ 6000 4550
+NoConn ~ 4700 4450
+NoConn ~ 2700 4450
+NoConn ~ 2700 4550
+NoConn ~ 4700 2150
+NoConn ~ 4700 2250
 $EndSCHEMATC
