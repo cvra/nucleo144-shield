@@ -243,15 +243,15 @@ F 3 "" H 1800 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_DGS Q1
+L Q_PMOS_GSD Q1
 U 1 1 581FC8E7
 P 1700 6000
 F 0 "Q1" H 2000 6050 50  0000 R CNN
-F 1 "Q_PMOS_DGS" H 2350 5950 50  0000 R CNN
+F 1 "Q_PMOS_GSD" H 2350 5950 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 1900 6100 50  0001 C CNN
 F 3 "" H 1700 6000 50  0000 C CNN
 	1    1700 6000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R1
@@ -1233,4 +1233,61 @@ F 3 "" H 5200 6600 60  0001 C CNN
 	1    5200 6600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4700 3950
+NoConn ~ 4700 3750
+NoConn ~ 4700 3450
+NoConn ~ 4700 2950
+NoConn ~ 4700 2850
+NoConn ~ 4700 2750
+NoConn ~ 4700 2650
+NoConn ~ 6000 3650
+NoConn ~ 6000 3550
+NoConn ~ 6000 3450
+NoConn ~ 6000 3350
+NoConn ~ 6000 3250
+NoConn ~ 6000 3150
+NoConn ~ 6000 3050
+NoConn ~ 6000 2950
+NoConn ~ 6000 2850
+NoConn ~ 6000 2750
+NoConn ~ 6000 2550
+NoConn ~ 6000 2450
+NoConn ~ 4700 2450
+NoConn ~ 4700 1450
+NoConn ~ 4700 1850
+NoConn ~ 6000 1750
+NoConn ~ 6000 1650
+NoConn ~ 6000 1550
+NoConn ~ 6000 1450
+NoConn ~ 6000 2250
+NoConn ~ 2700 3750
+NoConn ~ 2700 3650
+NoConn ~ 1400 3750
+NoConn ~ 1400 3650
+NoConn ~ 1400 3450
+NoConn ~ 1400 3350
+NoConn ~ 2700 3350
+NoConn ~ 2700 3250
+NoConn ~ 2700 3150
+NoConn ~ 2700 3050
+NoConn ~ 2700 2850
+NoConn ~ 2700 2750
+NoConn ~ 2700 2650
+NoConn ~ 2700 2550
+NoConn ~ 2700 2450
+NoConn ~ 2700 2250
+NoConn ~ 1400 3050
+NoConn ~ 1400 2950
+NoConn ~ 1400 2850
+NoConn ~ 1400 2750
+NoConn ~ 1400 2650
+NoConn ~ 1400 2550
+NoConn ~ 1400 2450
+NoConn ~ 1400 2350
+NoConn ~ 1400 2250
+NoConn ~ 1400 2150
+NoConn ~ 1400 1950
+NoConn ~ 2700 1650
+NoConn ~ 1400 1350
+NoConn ~ 1400 1450
 $EndSCHEMATC
